@@ -29,6 +29,7 @@ dev_dependencies:
     sdk: flutter
   chewie: ^0.9.8
   rolling_nav_bar: ^0.0.1
+  polygon_clipper: ^1.0.2
 
 
 

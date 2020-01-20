@@ -150,7 +150,7 @@ packages:
     source: hosted
     version: "1.0.3"
   polygon_clipper:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: polygon_clipper
       url: "https://pub.dartlang.org"
