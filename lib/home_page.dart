@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'account.dart';
 import 'live_page.dart';
+import 'video_collection.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -8,7 +9,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<Widget> _children = [LivePage(), Account(), LivePage()];
+  final List<Widget> _children = [LivePage(), Account(), playListWebView()];
   int _selectedIndex = 0;
 
   void onTabTapped(int index) {
